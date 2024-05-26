@@ -8,6 +8,17 @@
         "imgSrc": "assets/snow-globe-goodsprings.webp",
         "lat": 472,
         "lng": 365.5
-        //doo doo test
+
+    }
+    {
+        "id": "bobblehead-strength",
+        "type": "collectible",
+        "subtype": "bobblehead",
+        "title": "Strength Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Mass_Fusion_building\">Mass Fusion building</a>, on the head of the metal wall statue/sculpture five levels above the lobby desk.",
+        "url": "https://fallout.fandom.com/wiki/Strength_bobblehead",
+        "imgSrc": "assets/snow-globe-goodsprings.webp",
+        "lat": 472,
+        "lng": 365.5
     }
 ]
