@@ -27,6 +27,7 @@ import {
     selectIsFoundMarkersShown,
     selectSkillBookMarkers,
     selectSnowGlobeMarkers,
+    selectBobbleHeadMarkers,
     toggleShowFoundMarkers,
     filterMarkerType,
     showAllMarkers,
@@ -60,10 +61,7 @@ const SettingsPanel = ({
 
     const skillBookMarkers = useAppSelector(selectSkillBookMarkers);
     const snowGlobeMarkers = useAppSelector(selectSnowGlobeMarkers);
-<<<<<<< HEAD
     const bobbleHeadMarkers = useAppSelector(selectBobbleHeadMarkers);
-=======
->>>>>>> ac28492691b738d3c7a9f45561ecdb40ec1ed63f
 
     const dispatch = useAppDispatch();
 
@@ -191,7 +189,14 @@ const SettingsPanel = ({
                     onTypeClick={handleTypeClick(typeMap.SnowGlobe)}
                     onMarkerTitleClick={onMarkerTitleClick}
                 />
-
+                <MarkerTypePanel
+                    className="settings-panel__marker-type-panel"
+                    type={typeMap.BobbleHead}
+                    markers={bobbleHeadMarkers}
+                    onMarkButtonClick={handleMarkButtonClick}
+                    onTypeClick={handleTypeClick(typeMap.BobbleHead)}
+                    onMarkerTitleClick={onMarkerTitleClick}
+                />
             </div>
 
             <footer
