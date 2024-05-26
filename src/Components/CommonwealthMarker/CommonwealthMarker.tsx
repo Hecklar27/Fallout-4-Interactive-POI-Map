@@ -13,7 +13,7 @@ import {
     typeLabelMap,
     typeColorMap,
     typeColorScheme,
-    subTypeSkillBookLabelMap,
+    subTypeCollectiblesLabelMap,
 } from 'types';
 import type {
     MarkerInterface,
@@ -124,7 +124,7 @@ const CommonwealthMarker = ({
                             isExternal={true}
                         >
 
-                            {type === typeMap.SkillBook && subType && subTypeSkillBookLabelMap[subType] && `${subTypeSkillBookLabelMap[subType]} - `}
+                            {type === typeMap.Collectibles && subType && subTypeCollectiblesLabelMap[subType] && `${subTypeCollectiblesLabelMap[subType]} - `}
 
                             {title}
 
