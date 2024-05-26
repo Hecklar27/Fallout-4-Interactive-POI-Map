@@ -75,6 +75,148 @@
         "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_luck.webp",
         "lng": 1684,
         "lat": 730.5
+    },
+    {
+        "id": "bobblehead-barter",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Barter Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Longneck_Lukowski%27s_Cannery\">Longneck Lukowski's Cannery</a>, inside the metal catwalk hut, northwest upper area of the main cannery room.",
+        "url": "https://fallout.fandom.com/wiki/Barter_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_barter.webp",
+        "lng":1722.5,
+        "lat":1616.5
+    },
+    {
+        "id": "bobblehead-lockpick",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Lockpick Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Pickman_Gallery\">Pickman Gallery</a>, last tunnel chamber where one can see Pickman; On the ground between brick pillars and a bin fireplace.",
+        "url": "https://fallout.fandom.com/wiki/Lock_picking_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_lockpick.webp",
+        "lng":1301.5,
+        "lat":1211.5
+    },
+    {
+        "id": "bobblehead-medicine",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Medicine Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Vault_81\">Vault 81</a>, in Curie's office, southeast corner of the Vault.",
+        "url": "https://fallout.fandom.com/wiki/Medicine_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_medicine.webp",
+        "lng":809.5,
+        "lat":1010.5
+    },
+    {
+        "id": "bobblehead-repair",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Repair Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Corvega_assembly_plant\">Corvega assembly plant</a>, by the southwest roof section, at the end of the top exterior gantry (blue sphere), on a wooden box.",
+        "url": "https://fallout.fandom.com/wiki/Repair_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_repair.webp",
+        "lng":833.75,
+        "lat":1435.25
+    },
+    {
+        "id": "bobblehead-science",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Science Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Malden_Middle_School\">Malden Middle School</a> (<a href=\"https://fallout.fandom.com/wiki/Vault_75\">Vault 75</a>), on the desk overlooking the subterranean shooting area, within the science labs.",
+        "url": "https://fallout.fandom.com/wiki/Science_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_science.webp",
+        "lng":1249.75,
+        "lat":1679.75
+    },
+    {
+        "id": "bobblehead-sneak",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Sneak Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Dunwich_Borers\">Dunwich Borers</a>, on a small metal table by a lantern, right next to the metal post terminal area #4.",
+        "url": "https://fallout.fandom.com/wiki/Sneak_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_sneak.webp",
+        "lng":1623,
+        "lat":1734.5
+    },
+    {
+        "id": "bobblehead-speech",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Speech Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Park_Street_station\">Malden Middle School</a> (<a href=\"https://fallout.fandom.com/wiki/Vault_114\">Vault 75</a>), in the overseer's office on the desk.",
+        "url": "https://fallout.fandom.com/wiki/Speech_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Utility/bobblehead_speech.webp",
+        "lng":1219.5,
+        "lat":1068
+    },
+    {
+        "id": "bobblehead-bg",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Big guns Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Vault_95\">Vault 95</a>, in the living quarters area, northmost room, on a radio.",
+        "url": "https://fallout.fandom.com/wiki/Big_guns_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Weapons/bobblehead_big_guns.webp",
+        "lng":722,
+        "lat":499.5
+    },
+    {
+        "id": "bobblehead-energy",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Energy weapons Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Fort_Hagen_Command_Center\">Fort Hagen Command Center</a>, in the command center, southwest kitchens, on a small table between two fridges.<br>(Accessible only during/after <a href=\"https://fallout.fandom.com/wiki/Reunions\">Reunions</a>)",
+        "url": "https://fallout.fandom.com/wiki/Energy_weapons_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Weapons/bobblehead_energy_weapons.webp",
+        "lng":420.25,
+        "lat":891.75
+    },
+    {
+        "id": "bobblehead-explosives",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Explosives Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Saugus_Ironworks\">Saugus Ironworks</a>, in the blast furnace, on the second level catwalk behind Slag's spawn, sitting on top of a control panel next to a steamer trunk and Picket Fences.",
+        "url": "https://fallout.fandom.com/wiki/Explosives_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Weapons/bobblehead_explosives.webp",
+        "lng":1527.5,
+        "lat":1642.5
+    },
+    {
+        "id": "bobblehead-melee",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Melee Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Trinity_Tower\">Trinity Tower</a>, on a table in the cage where <a href=\"https://fallout.fandom.com/wiki/Rex_Goodman\">Rex Goodman</a> and <a href=\"https://fallout.fandom.com/wiki/Strong\">Strong</a> are being held.",
+        "url": "https://fallout.fandom.com/wiki/Melee_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Weapons/bobblehead_melee.webp",
+        "lng":1131,
+        "lat":995
+    },
+    {
+        "id": "bobblehead-sg",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Small guns Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Gunners_plaza\">Gunners plaza</a>, on the broadcast desk in the on-air room, first floor, west side of the building.",
+        "url": "https://fallout.fandom.com/wiki/Small_guns_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Weapons/bobblehead_small_guns.webp",
+        "lng":992.1875,
+        "lat":581
+    },
+    {
+        "id": "bobblehead-unarmed",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Unarmed Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Unarmed_bobblehead\">Unarmed bobblehead</a>, on the hood of the rusty car in the main warehouse.",
+        "url": "https://fallout.fandom.com/wiki/Atom_Cats_garage",
+        "imgSrc": "assets/Collectibles/Bobbleheads/Weapons/bobblehead_unarmed.webp",
+        "lng":1398,
+        "lat":642.5
     }
-
 ]
