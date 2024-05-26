@@ -1,0 +1,12 @@
+[
+    {
+        "id": "snow-globe-goodsprings",
+        "type": "snow_globe",
+        "title": "Goodsprings",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Goodsprings_Cemetery\">Goodsprings Cemetery</a>, at the foot of the small, rectangular gravestone and disturbed earth, close to the water tower.",
+        "url": "https://fallout.fandom.com/wiki/Snow_globe_-_Goodsprings",
+        "imgSrc": "assets/snow-globe-goodsprings.webp",
+        "lat": 472,
+        "lng": 365.5
+    }
+]

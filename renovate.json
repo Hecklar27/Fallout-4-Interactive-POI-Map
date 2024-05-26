@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "config:base",
+        ":enableVulnerabilityAlerts",
+        ":enableVulnerabilityAlertsWithLabel(security)",
+        ":label(dependencies)",
+        ":semanticCommits",
+        ":semanticCommitTypeAll(chore)",
+        ":automergePr",
+        ":automergeLinters",
+        ":automergeTesters",
+        ":automergeTypes"
+    ],
+    "rangeStrategy": "update-lockfile"
+}
