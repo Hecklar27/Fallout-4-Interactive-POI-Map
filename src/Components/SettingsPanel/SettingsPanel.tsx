@@ -152,7 +152,7 @@ const SettingsPanel = ({
                     >
 
                         <Tooltip
-                            label="If checked, markers 'marked as found' will still appear transparent on the map."
+                            label="If checked, markers 'marked as found' will be shown transparent on the map."
                             placement="top"
                             hasArrow={true}
                         >
@@ -201,17 +201,27 @@ const SettingsPanel = ({
             <footer
                 className={classNames('settings-panel__footer')}
             >
-
+                <p>
                 Created By
 
                 {' '}
 
                 <Link
-                    href="https://github.com/srt4rulez"
+                    href="https://github.com/Hecklar27"
                     isExternal={true}
                     color="blue.500"
                 >
-                    srt4rulez
+                    Hecklar27
+                </Link>
+
+                {" & "}
+
+                <Link
+                    href="https://github.com/All-Star-Vagabond"
+                    isExternal={true}
+                    color="#00BFFF"
+                >
+                    All-Star-Vagabond
                 </Link>
 
                 {' | '}
@@ -221,13 +231,23 @@ const SettingsPanel = ({
                 {' | '}
 
                 <Link
-                    href="https://github.com/srt4rulez/fallout-new-vegas-interactive-map"
+                    href="https://github.com/Hecklar27/Fallout-4-Interactive-POI-Map"
                     isExternal={true}
                     color="blue.500"
                 >
                     View on Github
                 </Link>
 
+                </p>
+                <p>
+                <Link
+                    href="https://srt4rulez.github.io/fallout-new-vegas-interactive-map/"
+                    isExternal={true}
+                    color="blue.500"
+                >
+                    srt4rulez's New Vegas Map
+                </Link>
+                </p>
             </footer>
 
         </Box>
