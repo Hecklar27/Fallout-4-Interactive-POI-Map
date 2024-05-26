@@ -51,8 +51,8 @@
         "desc": "<a href=\"https://fallout.fandom.com/wiki/Boston_Public_Library\">Boston Public Library</a>, on the computer bank, mechanical room, northwest corner of the library.",
         "url": "https://fallout.fandom.com/wiki/Intelligence_bobblehead",
         "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_intelligence.webp",
-        "lng": 1035,
-        "lat": 1074.625
+        "lng": 1074.625,
+        "lat": 1013
     },
     {
         "id": "bobblehead-agility",
