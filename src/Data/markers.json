@@ -1,24 +1,80 @@
 [
     {
-        "id": "snow-globe-goodsprings",
-        "type": "snow_globe",
-        "title": "Goodsprings",
-        "desc": "<a href=\"https://fallout.fandom.com/wiki/Goodsprings_Cemetery\">Goodsprings Cemetery</a>, at the foot of the small, rectangular gravestone and disturbed earth, close to the water tower.",
-        "url": "https://fallout.fandom.com/wiki/Snow_globe_-_Goodsprings",
-        "imgSrc": "assets/snow-globe-goodsprings.webp",
-        "lat": 472,
-        "lng": 365.5
-
-    }
-    {
         "id": "bobblehead-strength",
-        "type": "collectible",
-        "subtype": "bobblehead",
+        "type": "collectibles",
+        "subType": "bh",
         "title": "Strength Bobblehead",
         "desc": "<a href=\"https://fallout.fandom.com/wiki/Mass_Fusion_building\">Mass Fusion building</a>, on the head of the metal wall statue/sculpture five levels above the lobby desk.",
         "url": "https://fallout.fandom.com/wiki/Strength_bobblehead",
-        "imgSrc": "assets/snow-globe-goodsprings.webp",
-        "lat": 472,
-        "lng": 365.5
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_strength.webp",
+        "lng": 1245,
+        "lat": 1133
+    },
+    {
+        "id": "bobblehead-preception",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Preception Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Museum_of_Freedom\">Museum of Freedom</a>, on a desk next to a broken terminal in the back of the room where the player character first meets Preston Garvey.",
+        "url": "https://fallout.fandom.com/wiki/Perception_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_preception.webp",
+        "lng": 661,
+        "lat": 1731.5
+    },
+    {
+        "id": "bobblehead-endurance",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Endurance Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Poseidon_Energy_(Fallout_4)\">Poseidon Energy</a>, on the metal desk with a magazine, near steamer trunk, central metal catwalk.",
+        "url": "https://fallout.fandom.com/wiki/Endurance_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_endurance.webp",
+        "lng": 1428,
+        "lat": 489
+    },
+    {
+        "id": "bobblehead-charisma",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Charisma Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Parsons_State_Insane_Asylum\">Parsons State Insane Asylum</a>, on Jack Cabot's office desk, close to the elevator, administration area.",
+        "url": "https://fallout.fandom.com/wiki/Charisma_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_charisma.webp",
+        "lng": 1509.5,
+        "lat": 1863.5
+    },
+    {
+        "id": "bobblehead-intelligence",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Intelligence Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Boston_Public_Library\">Boston Public Library</a>, on the computer bank, mechanical room, northwest corner of the library.",
+        "url": "https://fallout.fandom.com/wiki/Intelligence_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_intelligence.webp",
+        "lng": 1035,
+        "lat": 1074.625
+    },
+    {
+        "id": "bobblehead-agility",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Agility Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Wreck_of_the_FMS_Northern_Star\">Wreck of the FMS Northern Star</a>, on the edge of the bow of the ship, wooden platform.",
+        "url": "https://fallout.fandom.com/wiki/Agility_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_agility.webp",
+        "lng": 1573.5,
+        "lat": 536.5
+    },
+    {
+        "id": "bobblehead-luck",
+        "type": "collectibles",
+        "subType": "bh",
+        "title": "Luck Bobblehead",
+        "desc": "<a href=\"https://fallout.fandom.com/wiki/Spectacle_Island\">Spectacle Island</a>, in the 2nd deck pilot house of a green tugboat located at the southern end of Spectacle Island, on a locker shelf near the steamer trunk.",
+        "url": "https://fallout.fandom.com/wiki/Luck_bobblehead",
+        "imgSrc": "assets/Collectibles/Bobbleheads/S.P.E.C.I.A.L/bobblehead_luck.webp",
+        "lng": 1684,
+        "lat": 730.5
     }
+
 ]

@@ -6,7 +6,10 @@ import {
     ImageOverlay,
 } from 'react-leaflet';
 import * as L from 'leaflet';
-import commonwealthMapImageSrc from './the-commonwealth-map.jpg';
+//Green Map:
+import commonwealthMapImageSrc from './Commonwealth-Background.png';
+//Black and White Map:
+//import commonwealthMapImageSrc from './the-commonwealth-map.jpg';
 import CommonwealthMarker from 'Components/CommonwealthMarker/CommonwealthMarker';
 import type { CommonwealthMarkerProps } from 'Components/CommonwealthMarker/CommonwealthMarker';
 import type {
@@ -22,11 +25,20 @@ import {
     useAppSelector,
 } from 'hooks';
 
+/*
+    lat = (image canvas size) - (y coordinate of image)
+    lng = (x coordinate)
+
+    e.x. MS Paint says you're at 128, 342 px, and image is 2048 x 2048 in size.
+    lat = 2048 - 342 = 1706 since an image's (0, 0) is on the top left, rather than the bottom right like in a Euclidean coordinate system, so you'll need to compinsate for it
+    lng = 128 since the positive x direction is the same in MS Paint and in the Euclidean space
+*/
 const bounds = new L.LatLngBounds({
+    // starting coordinates are equivilant to (0, 0) in Euclidean Space
     lat: 0,
     lng: 0,
 }, {
-    // for now, this is just the size of the map image.
+    // boundary stretches the full extent of the image canvas
     lat: 2048,
     lng: 2048
 });
@@ -59,6 +71,7 @@ const CommonwealthMap = ({
                 className,
             ])}
             maxZoom={4}
+            // L.CRS.Simple changes lat & lng to refer to the x and y coordinates of the map
             crs={L.CRS.Simple}
             bounds={bounds}
         >
@@ -91,8 +104,8 @@ const CommonwealthMap = ({
 
                     <CommonwealthMarker
                         key={marker.id}
-                        lat={marker.lat}
                         lng={marker.lng}
+                        lat={marker.lat}
                         isFound={marker.isFound}
                         url={marker.url}
                         title={marker.title}

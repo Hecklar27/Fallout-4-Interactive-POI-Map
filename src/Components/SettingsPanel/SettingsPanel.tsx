@@ -25,9 +25,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-regular-svg-icons';
 import {
     selectIsFoundMarkersShown,
-    selectSkillBookMarkers,
-    selectSnowGlobeMarkers,
-    selectBobbleHeadMarkers,
+    selectCollectiblesMarkers,
+    selectUniqueLootMarkers,
+    selectOtherMarkers,
     toggleShowFoundMarkers,
     filterMarkerType,
     showAllMarkers,
@@ -59,9 +59,9 @@ const SettingsPanel = ({
 
     const isFoundMarkersShown = useAppSelector(selectIsFoundMarkersShown);
 
-    const skillBookMarkers = useAppSelector(selectSkillBookMarkers);
-    const snowGlobeMarkers = useAppSelector(selectSnowGlobeMarkers);
-    const bobbleHeadMarkers = useAppSelector(selectBobbleHeadMarkers);
+    const collectiblesMarkers = useAppSelector(selectCollectiblesMarkers);
+    const uniqueLootMarkers = useAppSelector(selectUniqueLootMarkers);
+    const otherMarkers = useAppSelector(selectOtherMarkers);
 
     const dispatch = useAppDispatch();
 
@@ -174,27 +174,26 @@ const SettingsPanel = ({
                 {/* TODO: iterate over typeMap values*/}
                 <MarkerTypePanel
                     className="settings-panel__marker-type-panel"
-                    type={typeMap.SkillBook}
-                    markers={skillBookMarkers}
+                    type={typeMap.Collectibles}
+                    markers={collectiblesMarkers}
                     onMarkButtonClick={handleMarkButtonClick}
-                    onTypeClick={handleTypeClick(typeMap.SkillBook)}
-                    onMarkerTitleClick={onMarkerTitleClick}
-                />
-
-                <MarkerTypePanel
-                    className="settings-panel__marker-type-panel"
-                    type={typeMap.SnowGlobe}
-                    markers={snowGlobeMarkers}
-                    onMarkButtonClick={handleMarkButtonClick}
-                    onTypeClick={handleTypeClick(typeMap.SnowGlobe)}
+                    onTypeClick={handleTypeClick(typeMap.Collectibles)}
                     onMarkerTitleClick={onMarkerTitleClick}
                 />
                 <MarkerTypePanel
                     className="settings-panel__marker-type-panel"
-                    type={typeMap.BobbleHead}
-                    markers={bobbleHeadMarkers}
+                    type={typeMap.UniqueLoot}
+                    markers={uniqueLootMarkers}
                     onMarkButtonClick={handleMarkButtonClick}
-                    onTypeClick={handleTypeClick(typeMap.BobbleHead)}
+                    onTypeClick={handleTypeClick(typeMap.UniqueLoot)}
+                    onMarkerTitleClick={onMarkerTitleClick}
+                />
+                <MarkerTypePanel
+                    className="settings-panel__marker-type-panel"
+                    type={typeMap.Other}
+                    markers={otherMarkers}
+                    onMarkButtonClick={handleMarkButtonClick}
+                    onTypeClick={handleTypeClick(typeMap.Other)}
                     onMarkerTitleClick={onMarkerTitleClick}
                 />
             </div>
